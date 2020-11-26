@@ -147,7 +147,7 @@ hr.light-100{
   }
 @media (max-width: 768px) {
   .carousel-caption{
-    top: 35%;
+    top: 45%;
   }
   
   .carousel-caption h1{
@@ -160,7 +160,7 @@ hr.light-100{
     padding-bottom: .2rem;
   }
   .carousel-caption .btn{
-    font-size: 80%;
+    font-size: 95%;
     padding: 8px 14px;
   }
   .display-4{
@@ -173,6 +173,31 @@ hr.light-100{
 }
 @media (max-width: 576px) {
   
+  .carousel-caption{
+    top: 40%;
+  }
+  
+  .carousel-caption h1{
+    font-size: 250%;
+  }
+  
+  .carousel-caption h3{
+    font-size: 110%;
+  }
+  .carousel-caption .btn{
+    font-size: 90%;
+    padding: 8px 14px;
+  }
+  .display-4{
+    font-size: 160%;
+  }
+  .social a{
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+.carousel-indicator{
+display: none;
+}
 }
 
 
